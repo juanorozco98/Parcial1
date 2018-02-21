@@ -11,7 +11,7 @@ int main()
 
     if (porcentaje < 80)
     {
-        cout << "Consumo bajo: " << porcentaje << "%";
+        cout << "Consumo bajo de energia: " << porcentaje << "%";
     }
     else if (porcentaje>100)
     {
