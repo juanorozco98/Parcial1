@@ -10,7 +10,7 @@ int main()
     horas=(int)numero/3600;
     minutos=(int)((numero-horas*3600)/60);
     segundos=(int)numero-((horas*3600)+(minutos*60));
-    cout << "el tiempo es de: "<<horas<<"h"<<minutos<<"m"<<segundos<<"s";
+    cout << "el tiempo es de: "<<horas<<"h  "<<minutos<<"m  "<<segundos<<"s";
 
 
 

@@ -8,7 +8,7 @@ int main()
     cout << "Ingrese horas trabajadas" << endl;
     cin >> horas;
 
-    if (horas<40)
+    if (horas<=40)
     {
         sueldo=horas*5000;
             cout << "Nomina: " << sueldo;
@@ -18,7 +18,7 @@ int main()
         recargo= (horas-40)*7500;
         base=40*5000;
         total= base+recargo;
-            cout << "Nomina: " << total;
+            cout << "Nomina: " << total << " . Recargo total: " << recargo;
     }
     return 0;
 }
